@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticks | Register </title>
+</head>
+<body>
+    <div class="register-container">
+      <form action="" class="loginForm" id="registerForm">
+        <h1>Sign Up</h1>
+        <div class="input-data">
+          <div class="emailForm">
+            <div>Email Address</div>
+            <input type="email" name="email" id="email" />
+            <div class="error-message"></div>
+            <!-- add error message element -->
+          </div>
+          <div class="passwordForm">
+            <div>Password</div>
+            <input type="password" name="password" id="password" />
+            <div class="error-message"></div>
+            <!-- add error message element -->
+          </div>
+          <input class="button-register" type="submit" value="Register" />
+        </div>
+      </form>
+      <div class="registerbutton">
+        Already have an account?
+        <a href="signin.html" class="registerbtn">Sign In Here</a>
+      </div>
+      <a href="index.html"
+        ><img src="/img/Close Button.svg" alt="" /><span></span
+      ></a>
+    </div>
+  </body>
+
+ 
+
+  <script src="js/jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="js/script.js"></script>
+  <script>
+    function isLoggedIn() {
+      var loginStatus = sessionStorage.getItem("isLoggedIn");
+      return loginStatus === "true";
+    }
+
+    if (isLoggedIn()) {
+      alert("You are already Signed In!");
+      window.location.href = "index.html";
+    }
+  </script>
+
+</html>
