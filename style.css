@@ -1,0 +1,136 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Navigation Bar */
+.navigationbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 48px 8px 48px;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.navigationbar img{
+    height: 44px;
+}
+
+.account{
+    display: flex;
+    gap: 32px;
+}
+
+.account p {
+    padding: 12px 24px 12px 24px;
+}
+
+.signup {
+    background-color: #006DC0;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+.login {
+    border: #006DC0;
+    border-style: solid;
+    color: #006DC0;
+    border-radius: 8px;
+}
+
+.hero{
+    padding: 0px 48px 0px 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 96px;
+}
+
+.hero img{
+    height: 500px;
+}
+
+.hero h1{
+    font-size: 40px;
+}
+
+.hero p{
+    font-size: 18px;
+}
+
+.content{
+    padding: 32px 48px 32px 48px;
+}
+
+.contenttitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contentcard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content img{
+    height: 200px;
+}
+
+.card h3 {
+    margin: 12px 0px 0px 0px;
+}
+
+.card p {
+    margin: 8px 0px 0px 0px;
+}
+
+.card {
+    width: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 16px 0 rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+    padding: 28px 0px 28px 0px;
+}
+
+/*  */
+.signup-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group > div {
+    margin-bottom: 5px;
+  }
+  
+  .error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #006DC0;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+/* FOOTER */
+.footer{
+    color: #ffffff;
+    background-color: #006DC0;
+    text-align: center;
+    padding: 64px 0px 64px 0px;
+    margin-top: 48px;
+}
